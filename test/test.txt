@@ -1,0 +1,46 @@
+{
+ "cells": [
+  {
+   "id": "title",
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Encrypted Message\n",
+    "\n",
+    "Payload encrypted with `XChaCha20-Poly1305`. To decrypt:\n",
+    "\n",
+    "```\n",
+    "python cli.py -d --enc ipynb -f this_notebook.ipynb\n",
+    "```\n"
+   ]
+  },
+  {
+   "id": "payload",
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "x_encrypted_payload": {
+     "v": "v1",
+     "alg": "XChaCha20-Poly1305"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "ENCRYPTED_PAYLOAD = \"AhEIAWW3sB8YMBlXDSPT4nkX0htdFaenWqNdzQAAAAX0iGsmSZgcNDdi1huRcpEebkie2TI=\"\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
